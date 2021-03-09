@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function Loading() {
-  const classes = useStyles();
+  // const classes = useStyles();
 
   return (
         <div className="d-flex justify-content-center align-items-center pt-5">
