@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <Countries></Countries>
-            <Loading></Loading>
+            {/* <Loading></Loading> */}
         </div>
     );
 };

@@ -15,6 +15,9 @@ const Countries = () => {
         <div className="container">
             <div class="row">
                 {
+                    countries.length === 0 && <h1>Loading......!</h1>
+                }
+                {
                     countries.map(country => <Country key={country.alpha2Code} country={country}></Country>)
                 }
             </div>
